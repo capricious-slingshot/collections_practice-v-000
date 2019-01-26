@@ -36,3 +36,7 @@ end
 def find_a(array)
 	array.select {|w| w.start_with?("a")}
 end
+
+def sum_array(array)
+	array.reduce(0){|sum,num| sum + num}
+end
