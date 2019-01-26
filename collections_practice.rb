@@ -42,5 +42,5 @@ def sum_array(array)
 end
 
 def add_s(array)
-	array.map_with_index {|word, index| word << "s" unless word[index] == 1}
+	array.map.with_index {|word, index| word << "s" unless word[index] == 1}
 end
