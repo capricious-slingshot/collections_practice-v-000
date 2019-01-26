@@ -40,3 +40,7 @@ end
 def sum_array(array)
 	array.reduce(0){|sum,num| sum + num}
 end
+
+def add_s(array)
+	array.collect {|word| word << "s"}
+end
