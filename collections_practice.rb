@@ -43,9 +43,7 @@ end
 
 def add_s(array)
 	array.map.with_index do|word, index|
-		if word[index] != 1
-binding.pry
-      word << "s"
-	  end
+		next if index == 1
+    word << "s"
 	end
 end
