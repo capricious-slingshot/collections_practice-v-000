@@ -24,9 +24,9 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-	array.map do |word| 
+	array.map do |word|
 		x = word.split
-		x[3] = "$"
+		x[2] = "$"
 		x.join
 	end
 end
